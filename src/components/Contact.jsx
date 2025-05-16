@@ -19,22 +19,22 @@ export default function Contact() {
             label: "Email",
           },
           {
-            href: "https://www.linkedin.com/in/shadafathima",
+            href: "https://www.linkedin.com/in/shadafathimav/",
             icon: <Linkedin size={30} />,
             label: "LinkedIn",
           },
           {
-            href: "https://github.com/shadafathima",
+            href: "https://github.com/ShadaFathima",
             icon: <Github size={30} />,
             label: "GitHub",
           },
           {
-            href: "https://www.instagram.com/shadafathima",
+            href: "https://www.instagram.com/_shada_v_/",
             icon: <Instagram size={30} />,
             label: "Instagram",
           },
           {
-            href: "https://www.facebook.com/shadafathima",
+            href: "https://facebook.com/v.shada.79/",
             icon: <Facebook size={30} />,
             label: "Facebook",
           },

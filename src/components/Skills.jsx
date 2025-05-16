@@ -1,4 +1,5 @@
 import React from "react";
+import FloatingNav from "./FloatingNav";
 import {
   FaHtml5,
   FaCss3Alt,
@@ -11,7 +12,8 @@ import { MdGroups, MdPsychologyAlt, MdHandshake, MdPublic, MdLightbulb, MdAccess
 
 export default function Skills() {
   return (
-    <section id="skills" className="px-6 py-20 bg-black text-white">
+    <section id="skills" className="px-6 py-20 bg-black text-white relative min-h-screen">
+      <FloatingNav /> 
       {/* Title */}
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold">My Skills</h2>

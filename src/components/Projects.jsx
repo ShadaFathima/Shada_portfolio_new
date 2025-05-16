@@ -1,9 +1,9 @@
 import React from "react";
 import { Code } from "lucide-react";
-
+import FloatingNav from "./FloatingNav";
 export default function Projects() {
   return (
-    <section id="projects" className="px-6 py-20 bg-black text-white">
+    <section id="projects" className="px-6 py-20 bg-black text-white relative min-h-screen">
       <div className="text-center mb-16">
         <Code className="text-yellow-500 w-10 h-10 mx-auto mb-4" />
         <h2 className="text-3xl font-bold">Projects</h2>
@@ -11,6 +11,7 @@ export default function Projects() {
           A glimpse into what I've built, explored, and crafted.
         </p>
       </div>
+      <FloatingNav />
 
       <div className="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto">
         {/* Venue Booking System */}

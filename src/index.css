@@ -94,3 +94,28 @@ button:focus-visible {
   line-height: 1;
   pointer-events: none;
 }
+@media (max-width: 320px) {
+  .profile-image {
+    width: 9rem !important;
+    height: 9rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .profile-image {
+    width: 10rem !important;
+    height: 10rem !important;
+  }
+}
+  .outlined-text {
+    font-size: 8rem; /* Adjusted to match image height */
+  }
+@media (max-width: 1024px) {
+  .outlined-text {
+    font-size: 6rem; /* Adjusted to match image height */
+  }
+}
+@media (max-width: 1280px) {
+  .outlined-text {
+    font-size: 5rem; /* Adjusted to match image height */
+  }
+}

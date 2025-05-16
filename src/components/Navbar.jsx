@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="text-3xl font-bold  ml-2 sm:ml-10">S H A D A</div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-10 text-white font-semibold mr-10 sm:mr-20 text-lg">
+        <div className="hidden md:flex space-x-6 text-white font-semibold mr-10 sm:mr-20 text-lg">
           {menuItems.map((item) => (
             <a
               key={item}
