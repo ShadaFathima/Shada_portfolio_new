@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * {
   font-family: 'Poppins', sans-serif;
 }
@@ -90,11 +93,12 @@ button:focus-visible {
   color: transparent;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 10rem; /* Adjusted to match image height */
+  font-size: 9rem;
   line-height: 1;
   pointer-events: none;
+  margin-left: 1rem;
 }
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
   .profile-image {
     width: 9rem !important;
     height: 9rem !important;
@@ -106,16 +110,24 @@ button:focus-visible {
     height: 10rem !important;
   }
 }
-  .outlined-text {
-    font-size: 8rem; /* Adjusted to match image height */
+@media (max-width: 640px) {
+  .profile-image {
+    width: 8rem !important;
+    height: 8rem !important;
   }
-@media (max-width: 1024px) {
+} */
+
+/* Small phones (≤ 640px) */
+@media (max-width: 640px) {
   .outlined-text {
-    font-size: 6rem; /* Adjusted to match image height */
+    font-size: 5rem;
   }
 }
-@media (max-width: 1280px) {
+
+/* Tablets (641px - 768px) */
+@media (min-width: 641px) and (max-width: 768px) {
   .outlined-text {
-    font-size: 5rem; /* Adjusted to match image height */
+    font-size:7rem;
   }
 }
+
