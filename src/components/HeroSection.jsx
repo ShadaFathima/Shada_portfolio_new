@@ -61,7 +61,7 @@ export default function HeroSection() {
           className="w-60 sm:w-100 md:w-[27.5rem] h-60 sm:h-72 md:h-[27.5rem] rounded-full object-cover animate-float profile-image mr-10"
           style={{ ...shadowStyle, ...transformStyle }}
         />
-        <div className="mt-6"> 
+        <div className="mt-6 "> 
           <span className="outlined-text absolute bottom-[-2rem] text-white font-bold tracking-wide opacity-50">
             SHADA
           </span>

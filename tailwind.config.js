@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        xs: "420px", // ✅ This will now work as a responsive prefix
+        xs: "420px", //
       },
     },
   },
